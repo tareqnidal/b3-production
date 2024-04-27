@@ -2,7 +2,7 @@
 
 # Start the application on the local host 
 
-1. clone the repo "git@gitlab.lnu.se:1dv528/student/tn222sg/b2-crud.git"
+1. clone the repo 
 2. cd to the directory to where you cloned the repo
 3. npm install
 
