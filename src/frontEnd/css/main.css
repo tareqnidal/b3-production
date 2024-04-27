@@ -1,0 +1,90 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+  block-size: 100%;
+  inline-size: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  inline-size: 100%;
+  block-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.topDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashMessage {
+  inline-size: 60%;
+  block-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #f44336;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a img {
+  height: 75px;
+  transition: transform 0.2s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 8px;
+  cursor: pointer;
+}

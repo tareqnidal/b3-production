@@ -1,0 +1,139 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  inline-size: 100%;
+  background-color: #f7f6f69c;
+
+}
+
+.projectDiv {
+  width: 250px;
+  height: 150px;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 20px;
+  inline-size: 80%;
+  padding: 10px;
+}
+
+.btnDiv {
+  margin-inline-end: 20px;
+  padding: 10px;
+
+}
+
+/* CSS for the button */
+.btnDiv .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 18px;
+  gap: 25px;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(59, 59, 59), rgb(34, 34, 34));
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid rgb(65, 65, 65);
+  transition-duration: 0.3s;
+}
+
+.btnDiv .btn:hover {
+  transition-duration: 0.3s;
+  box-shadow: 0px 0px 2px rgb(185, 185, 185), 0px 0px 10px rgb(97, 97, 97);
+}
+
+.btnDiv .btn:active {
+  transform: scale(0.95);
+}
+
+.btnDiv .btn:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+/* Additional styles for the button container (optional) */
+#buttonContainer {
+  margin-top: 20px;
+}
+
+
+.issuesDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 10px;
+
+}
+
+.issueDiv {
+  display: flex;
+  margin: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf9f9;
+  width: 80%;
+  height: 50%;
+  padding: 10px;
+  position: relative;
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+
+}
+
+.issueTop {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.stateIndecator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+  display: block;
+  position: relative;
+  width: 50%;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+
